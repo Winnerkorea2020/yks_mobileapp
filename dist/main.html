@@ -348,6 +348,13 @@
                 </div>
               </div>
             </div>
+            <div class="swiper-pagination"></div>
+            <style>
+              .swiper-pagination-bullet-active {
+                color: #fff;
+                background: #242424;
+              }
+            </style>
           </div>
         </div>
       </section>
@@ -700,6 +707,9 @@
       var swiper = new Swiper(".cardSwiper", {
         slidesPerView: 1,
         spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+        },
       });
     </script>
 
