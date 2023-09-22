@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper cardSwiper bg-red-400 h-screen">
+      <div class="swiper-wrapper h-full">
+        <div class="swiper-slide">
+          <div
+            class="relative w-full h-[202px] gradient-card border-none outline-none rounded-xl"
+          >
+            <div class="absolute top-0 left-0 w-full">
+              <div class="flex justify-between">
+                <div class="text-white font-medium text-sm px-8 pt-9">
+                  Card Book <br />현금방
+                </div>
+                <div class="relative">
+                  <div>
+                    <img
+                      class="px-7 pt-5"
+                      src="./assets/img/main/tit_coin_bg-removebg-preview-removebg-preview.svg"
+                      alt=""
+                    />
+                    <div
+                      class="h-full w-full flex items-center justify-center font-semibold text-white"
+                    >
+                      YKS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full">
+              <div class="flex justify-between items-end pb-3 pl-8 pr-7 w-full">
+                <div class="leading-tight text-white">
+                  <div class="text-white">
+                    <span class="mr-1">KRW</span>
+                    <span class="font-medium text-xl">57,447.00</span>
+                  </div>
+                  <div class="-mt-1">sy9002</div>
+                </div>
+                <div class="text-white">
+                  <span class="mr-1">UPDATE</span>
+                  <span class="mr-1">9시간</span>
+                  <span class="">전</span>
+                </div>
+              </div>
+            </div>
+            <div class="absolute right-0 top-0 h-full">
+              <img
+                src="./assets/img/main/card-inset-img.svg"
+                alt=""
+                class="pr-3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div
+            class="relative w-full h-[202px] gradient-card border-none outline-none rounded-xl"
+          >
+            <div class="absolute top-0 left-0 w-full">
+              <div class="flex justify-between">
+                <div class="text-white font-medium text-sm px-8 pt-9">
+                  Card Book <br />현금방
+                </div>
+                <div class="relative">
+                  <div>
+                    <img
+                      class="px-7 pt-5"
+                      src="./assets/img/main/tit_coin_bg-removebg-preview-removebg-preview.svg"
+                      alt=""
+                    />
+                    <div
+                      class="h-full w-full flex items-center justify-center font-semibold text-white"
+                    >
+                      YKS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full">
+              <div class="flex justify-between items-end pb-3 pl-8 pr-7 w-full">
+                <div class="leading-tight text-white">
+                  <div class="text-white">
+                    <span class="mr-1">KRW</span>
+                    <span class="font-medium text-xl">57,447.00</span>
+                  </div>
+                  <div class="-mt-1">sy9002</div>
+                </div>
+                <div class="text-white">
+                  <span class="mr-1">UPDATE</span>
+                  <span class="mr-1">9시간</span>
+                  <span class="">전</span>
+                </div>
+              </div>
+            </div>
+            <div class="absolute right-0 top-0 h-full">
+              <img
+                src="./assets/img/main/card-inset-img.svg"
+                alt=""
+                class="pr-3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".cardSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      });
+    </script>
+  </body>
+</html>
