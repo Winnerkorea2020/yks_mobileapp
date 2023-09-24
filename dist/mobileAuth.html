@@ -4,60 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <title>Document</title>
   </head>
-  <body class="flex flex-col justify-between min-h-screen w-full text-primary bg-white">
+  <body
+    class="flex flex-col justify-between min-h-screen w-full text-primary bg-white"
+  >
     <div class="w-full mx-auto">
       <div class="flex justify-between items-center h-16 px-8">
         <div class="flex justify-start items-center basis-1/2">
-          <a class="text-xl font-semibold z-20 cursor-pointer" href="#"><img src="./assets/img/login/back.png" alt="" /> </a>
+          <a class="text-xl font-semibold z-20 cursor-pointer" href="#"
+            ><img src="./assets/img/login/back.png" alt="" />
+          </a>
           <div>휴대폰인증</div>
         </div>
-        <div class="inline-block w-full text-end text-xl font-semibold basis-1/2"></div>
+        <div
+          class="inline-block w-full text-end text-xl font-semibold basis-1/2"
+        ></div>
       </div>
     </div>
     <div class="flex-1 mt-6">
-      <div class="px-8">
-        <div class="grid grid-cols-1 gap-5">
-          <!-- Item 1 -->
-          <div class="px-3 py-2.5 bg-[#F6F6F6] rounded-xl flex justify-between items-center">
-            <div class="flex justify-start items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-[#D8D8D8] relative">
-                <img src="./assets/img/mypage/password.png" alt="" class="absolute top-0 left-0 h-full w-full p-2.5" />
-              </div>
-              <p class="text-xl">비밀번호 변경하기</p>
-            </div>
-            <div class="text-xl font-semibold">></div>
+      <div action="" class="flex-1 px-8 flex flex-col gap-5">
+        <div class="flex-1 flex flex-col justify-start gap-6 pt-20">
+          <div>
+            <label for="" class="px-5">휴대번호</label>
+            <input
+              class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
+              style="background: rgb(242, 242, 242)"
+              type="tel"
+              placeholder="핸드폰 번호를 입력하세요."
+              disabled
+            />
           </div>
-          <!-- Item 1 -->
-          <div class="px-3 py-2.5 bg-[#F6F6F6] rounded-xl flex justify-between items-center">
-            <div class="flex justify-start items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-[#D8D8D8] relative">
-                <img src="./assets/img/mypage/warning.png" alt="" class="absolute top-0 left-0 h-full w-full p-2.5" />
-              </div>
-              <p class="text-xl">비밀번호 변경하기</p>
-            </div>
-            <div class="text-xl font-semibold">></div>
+          <div>
+            <input
+              class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border text-white bg-[#FC6011]"
+              type="submit"
+              value="인증문자보내기"
+            />
           </div>
-          <!-- Item 1 -->
-          <div class="px-3 py-2.5 bg-[#F6F6F6] rounded-xl flex justify-between items-center">
-            <div class="flex justify-start items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-[#D8D8D8] relative">
-                <img src="./assets/img/mypage/user.png" alt="" class="absolute top-0 left-0 h-full w-full p-2.5" />
-              </div>
-              <p class="text-xl">비밀번호 변경하기</p>
-            </div>
-            <div class="text-xl font-semibold">></div>
+          <div>
+            <input
+              class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
+              style="background: rgb(242, 242, 242)"
+              type="text"
+              placeholder="인증문자를 입력하세요."
+            />
           </div>
         </div>
       </div>
     </div>
     <div class="mb-10 flex flex-col gap-5 px-5">
-      <button onclick="location.href='login.html';" class="text-center block border-[#C8D1D3] border text-[#8A8A8A] w-full py-3.5 px-2.5 rounded-full">로그아웃 하기</button>
-      <div class="flex justify-center items-center gap-2">
-        <div class="" style="color: #7c7d7e">Version 1.0</div>
-      </div>
+      <button
+        onclick="location.href='mypage.html';"
+        class="text-center block text-white w-full py-3.5 px-2.5 rounded-full"
+        style="
+          background: linear-gradient(
+            180deg,
+            rgb(178, 156, 93),
+            rgb(89, 78, 47) 100%
+          );
+        "
+      >
+        휴대폰인증
+      </button>
     </div>
   </body>
 </html>
