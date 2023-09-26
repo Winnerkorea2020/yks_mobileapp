@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body class="flex flex-col justify-between min-h-screen w-full text-primary">
+    <header class="h-16 fixed z-50 w-full mx-auto left-0 top-0 px-5 bg-white border-b border-[#EFEFEF]">
+      <nav class="flex justify-between items-center h-16">
+        <div class="w-full">
+          <a href="/" class="cursor-pointer">
+            <img src="./assets/img/header/yks_logo-removebg-preview.svg" alt="" />
+          </a>
+        </div>
+        <div class="flex justify-items-end items-center gap-2">
+          <a href="/">
+            <img src="./assets/img/header/ic-actions-notifications-check.svg" alt="" />
+          </a>
+          <a href="/">
+            <img src="./assets/img/header/toggle.svg" alt="" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-1 pt-16">
+      <!-- Banner Section -->
+      <section class="section">
+        <div class="mt-2">
+          <img src="./assets/img/header/bannerMain.svg" alt="" class="w-full" />
+        </div>
+      </section>
+      <!-- Item Grid -->
+      <section class="section px-5">
+        <div class="py-8 grid grid-cols-5 gap-5 tracking-tighter text-[12px] text-center font-semibold">
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/a.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">이벤트전환</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/b.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">현금방</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/c.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">랜덤현금방</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/d.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">현금재테크</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/e.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">랜덤재테크</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/f.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">쇼핑방</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/g.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">추천계보</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/h.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">신규메출</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/i.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">출금신청</div>
+            </div>
+          </div>
+          <div>
+            <div class="relative rounded-full w-[60px] h-[60px] gradient-main">
+              <div class="absolute z-20 h-full w-full flex items-center justify-center">
+                <img src="./assets/img/main/j.png" alt="" />
+              </div>
+              <div class="absolute -bottom-5 text-center w-full">코인지갑</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="py-5 px-5 bg-white">
+          <div class="swiper cardSwiper bg-white">
+            <div class="swiper-wrapper bg-white">
+              <!-- CARD 1 -->
+              <div class="swiper-slide bg-white">
+                <div class="relative w-full h-[202px] gradient-card border-none outline-none rounded-xl bg-white">
+                  <div class="w-full h-full flex flex-col justify-between px-8 py-5">
+                    <div class="flex justify-between items-center">
+                      <div class="text-white font-medium text-sm">Card Book <br />현금방</div>
+
+                      <div>
+                        <img class="" src="./assets/img/header/yks_logo-removebg-preview.svg" alt="" />
+                        <div class="flex items-center justify-center font-semibold text-white">YKS</div>
+                      </div>
+                    </div>
+
+                    <div class="flex justify-between items-end w-full">
+                      <div class="leading-tight text-white">
+                        <div class="text-white">
+                          <span class="mr-1">KRW</span>
+                          <span class="font-medium text-xl">57,447.00</span>
+                        </div>
+                        <div class="-mt-1">sy9002</div>
+                      </div>
+                      <div class="text-white">
+                        <span class="mr-1">UPDATE</span>
+                        <span class="">9시간</span>
+                        <span class="">전</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="absolute right-0 top-0 h-full">
+                    <img src="./assets/img/main/card-inset-img.svg" alt="" class="pr-3" />
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="swiper-slide bg-white">
+                <div class="relative w-full h-[202px] gradient-card border-none outline-none rounded-xl bg-white">
+                  <div class="w-full h-full flex flex-col justify-between px-8 py-5">
+                    <div class="flex justify-between items-center">
+                      <div class="text-white font-medium text-sm">Card Book <br />현금방</div>
+
+                      <div>
+                        <img class="" src="./assets/img/header/yks_logo-removebg-preview.svg" alt="" />
+                        <div class="flex items-center justify-center font-semibold text-white">YKS</div>
+                      </div>
+                    </div>
+
+                    <div class="flex justify-between items-end w-full">
+                      <div class="leading-tight text-white">
+                        <div class="text-white">
+                          <span class="mr-1">KRW</span>
+                          <span class="font-medium text-xl">57,447.00</span>
+                        </div>
+                        <div class="-mt-1">sy9002</div>
+                      </div>
+                      <div class="text-white">
+                        <span class="mr-1">UPDATE</span>
+                        <span class="">9시간</span>
+                        <span class="">전</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="absolute right-0 top-0 h-full">
+                    <img src="./assets/img/main/card.png" alt="" class="pr-3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <style>
+              .swiper-pagination-bullet-active {
+                color: #fff;
+                background: #242424;
+              }
+            </style>
+          </div>
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="h-[90px] w-full relative">
+          <img src="./assets/img/main/banner_second.svg" alt="" class="object-cover object-center w-full h-full" />
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="px-5">
+          <div class="flex justify-between items-center gap-3 py-4">
+            <a href="/" class="relative w-full h-full">
+              <img src="./assets/img/main/shop.png" alt="" class="w-full h-24" />
+            </a>
+            <a href="/" class="relative w-full h-full">
+              <img src="./assets/img/main/card.png" alt="" class="w-full h-24" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="pt-6 px-5">
+          <a href="/">
+            <div class="flex justify-start items-center gap-2">
+              <h2 class="text-base font-semibold">최근매출 History</h2>
+              <a href="#" class="text-xl font-semibold">></a>
+            </div>
+          </a>
+          <div class="mt-3 grid grid-cols-1 gap-5 py-5">
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar.png" alt="" />
+              </div>
+              <div>VIP5</div>
+              <div>3,900,00</div>
+              <div>재매출</div>
+              <div>2023-09-28</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="pt-6 px-5">
+          <a href="/">
+            <div class="flex justify-start items-center gap-2">
+              <h2 class="text-base font-semibold">최근출금 History</h2>
+              <a href="#" class="text-xl font-semibold">></a>
+            </div>
+          </a>
+          <div class="mt-3 grid grid-cols-1 gap-5 py-5">
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="./assets/img/main/rounded-dollar_b.png" alt="" />
+              </div>
+              <div>1,056</div>
+              <div>지급완료</div>
+              <div>랜던현금방</div>
+              <div>2023-09-28</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section mt-2">
+        <div class="px-5 py-4">
+          <a href="/" class="cursor-pointer">
+            <img src="./assets/img/main/evnet_b.png" alt="" class="w-full object-contain" />
+          </a>
+        </div>
+      </section>
+      <section class="section">
+        <div class="bg-white">
+          <div class="h-96 w-full rounded-t-3xl gradient-card relative z-10">
+            <div
+              class="absolute top-0 -left-20 -z-10 h-full w-full bg-no-repeat bg-cover bg-left"
+              style="background-image: url(./assets/img/main/card-inset-img.svg)"
+            ></div>
+            <div class="">
+              <div class="px-10">
+                <div class="flex items-center justify-start gap-2 pt-10">
+                  <div class="">
+                    <img src="./assets/img/main/flag.png" alt="" />
+                  </div>
+                  <div class="text-white">
+                    <span class="text-lg tracking-tighter mr-1">안녕하세요.</span>
+                    <span class="text-lg tracking-tighter">홍길동님</span>
+                  </div>
+                </div>
+              </div>
+              <div class="px-5 pt-3">
+                <div thumbsSlider="" class="swiper mySwiper">
+                  <div class="swiper-wrapper flex justify-between items-center mt-5 font-semibold text-white">
+                    <div class="swiper-slide w-full">
+                      <div class="flex justify-start items-center gap-2 cursor-pointer">
+                        <img src="./assets/img/main/user-avatar-filled-alt.png" alt="" />
+                        <span class="tracking-tighter">회원정보</span>
+                      </div>
+                    </div>
+                    <div class="swiper-slide w-full">
+                      <div class="flex justify-start items-center gap-2 cursor-pointer">
+                        <img src="./assets/img/main/calendar-sign.png" alt="" />
+                        <span class="tracking-tighter">매출정보</span>
+                      </div>
+                    </div>
+                    <div class="swiper-slide w-full">
+                      <div class="flex justify-start items-center gap-2 cursor-pointer">
+                        <img src="./assets/img/main/coin_curved.png" alt="" />
+                        <span class="tracking-tighter">대/소실적</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper pt-2">
+                  <div class="swiper-slide px-5">
+                    <div class="text-sm font-medium bg-white px-5 pt-5 py-2 mt-2 rounded-xl">
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">회원등급</div>
+                        <div class="text-[#7D7D7D] font-semibold">VIP 6</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">이름</div>
+                        <div class="text-[#7D7D7D] font-semibold">홍길동</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">연락처</div>
+                        <div class="text-[#7D7D7D] font-semibold">010-3882-9002</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">직급</div>
+                        <div class="text-[#7D7D7D] font-semibold">없음</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속그룹</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속센터</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide px-5">
+                    <div class="text-sm font-medium bg-white px-5 py-2 mt-2 rounded-xl">
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">회원등급</div>
+                        <div class="text-[#7D7D7D] font-semibold">VIP 6</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">이름</div>
+                        <div class="text-[#7D7D7D] font-semibold">홍길동</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">연락처</div>
+                        <div class="text-[#7D7D7D] font-semibold">010-3882-9002</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">직급</div>
+                        <div class="text-[#7D7D7D] font-semibold">없음</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속그룹</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속센터</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide px-5">
+                    <div class="text-sm font-medium bg-white px-5 pt-5 py-2 mt-2 rounded-xl">
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">회원등급</div>
+                        <div class="text-[#7D7D7D] font-semibold">VIP 6</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">이름</div>
+                        <div class="text-[#7D7D7D] font-semibold">홍길동</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">연락처</div>
+                        <div class="text-[#7D7D7D] font-semibold">010-3882-9002</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">직급</div>
+                        <div class="text-[#7D7D7D] font-semibold">없음</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속그룹</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                      <div class="flex justify-between items-center py-1.5">
+                        <div class="font-medium">소속센터</div>
+                        <div class="text-[#7D7D7D] font-semibold">본사</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".cardSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+  </body>
+</html>

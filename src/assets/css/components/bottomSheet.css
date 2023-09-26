@@ -1,0 +1,72 @@
+.show-modal {
+}
+.show-modal:hover {
+  background: #2382f6;
+}
+.bottom-sheet {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.1s linear;
+}
+.bottom-sheet.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.bottom-sheet .sheet-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background: #000;
+}
+.bottom-sheet .content {
+}
+.bottom-sheet.show .content {
+  transform: translateY(0%);
+}
+.bottom-sheet.dragging .content {
+  transition: none;
+}
+.bottom-sheet.fullscreen .content {
+  border-radius: 0;
+  overflow-y: hidden;
+}
+.bottom-sheet .header {
+  display: flex;
+  justify-content: center;
+}
+.header .drag-icon {
+  cursor: grab;
+  user-select: none;
+  padding: 15px;
+  margin-top: -15px;
+}
+.header .drag-icon span {
+  height: 4px;
+  width: 40px;
+  display: block;
+  background: #c7d0e1;
+  border-radius: 50px;
+}
+.bottom-sheet .bottom-sheet__body {
+  height: 100%;
+  overflow-y: auto;
+  padding: 15px 0 40px;
+  scrollbar-width: none;
+}
+.bottom-sheet .bottom-sheet__body::-webkit-scrollbar {
+  width: 0;
+}
