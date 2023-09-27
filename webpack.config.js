@@ -127,14 +127,75 @@ module.exports = {
       Chunks: ["multiple"],
       template: "./src/secondPasswordComplete.html",
     }),
-    // Withdraw
+    // CoinWallet
     new HtmlWebpackPlugin({
       title: "Index Title",
       filename: "coinWallet.html",
       Chunks: ["multiple"],
       template: "./src/coinWallet.html",
     }),
-
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletRecive.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletRecive.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletSend.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletSend.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletTransaction.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletTransaction.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletComplete.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletComplete.html",
+    }),
+    // TRX
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletReciveTrx.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletReciveTrx.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletSendTrx.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletSendTrx.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletTransactionTrx.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletTransactionTrx.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWalletComplete.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWalletComplete.html",
+    }),
+    // Event ITEMS
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "eventRullet.html",
+      Chunks: ["multiple"],
+      template: "./src/eventRullet.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "eventAttendance.html",
+      Chunks: ["multiple"],
+      template: "./src/eventAttendance.html",
+    }),
     new miniCssExtractPlugin({ filename: "assets/css/[name].css" }),
   ],
   module: {

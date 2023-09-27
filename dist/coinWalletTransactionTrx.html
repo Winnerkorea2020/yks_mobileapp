@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  <script defer src="assets/js/main.js"></script><link href="assets/css/main.css" rel="stylesheet"></head>
+  <body
+    class="flex flex-col justify-between min-h-screen w-full text-primary bg-white"
+  >
+    <div class="w-full mx-auto">
+      <div class="flex justify-between items-center h-16 px-2">
+        <a
+          class="inline-flex items-center text-xl font-semibold z-20 cursor-pointer basis-2/4"
+          href="coinWalletTrx.html"
+        >
+          <svg
+            class="w-5 h-5 text-gray-800"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 8 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"
+            />
+          </svg>
+          <span class="ml-2 tracking-tighter"> USDT </span>
+        </a>
+
+        <div class="inline-block w-full text-xl font-semibold basis-2/4"></div>
+      </div>
+    </div>
+
+    <div class="flex-1 w-full mx-auto">
+      <div class="w-full px-8">
+        <div class="pt-10">
+          <div class="w-full inline-flex mx-auto justify-center items-center">
+            <img
+              src="./assets/img/coinTronTRX.png"
+              alt=""
+              class="w-12 h-12 object-cover"
+            />
+          </div>
+          <div class="tracking-tighter w-full text-center py-6">
+            <span class="font-semibold text-xl">2,321,456</span>
+            <span class="">USDT</span>
+          </div>
+        </div>
+        <div class="flex justify-between items-center pb-7">
+          <!-- ITEMS 1 -->
+          <a href="coinWalletReciveTrx.html" class="flex flex-col items-center">
+            <svg
+              class="w-12 h-12 text-[#EC0927] border border-[#EC0927] rounded-full p-3 hover:bg-red-400 hover:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1v12m0 0 4-4m-4 4L1 9"
+              />
+            </svg>
+            <p class="w-full text-center font-medium tracking-tighter">받기</p>
+          </a>
+          <!-- ITEMS 2 -->
+          <a href="coinWalletSendTrx.html" class="flex flex-col items-center">
+            <svg
+              class="w-12 h-12 text-[#EC0927] border border-[#EC0927] rounded-full p-3 hover:bg-red-400 hover:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 13V1m0 0L1 5m4-4 4 4"
+              />
+            </svg>
+            <p class="w-full text-center font-medium tracking-tighter">
+              보내기
+            </p>
+          </a>
+          <!-- ITEMS 3 -->
+          <a
+            href="coinWalletTransaction.html"
+            class="flex flex-col items-center"
+          >
+            <svg
+              class="w-12 h-12 text-white bg-[#EC0927] rounded-full p-3"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 18"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 14 3-3m-3 3 3 3m-3-3h16v-3m2-7-3 3m3-3-3-3m3 3H3v3"
+              />
+            </svg>
+            <p class="w-full text-center font-medium tracking-tighter">
+              트랜젝션
+            </p>
+          </a>
+        </div>
+        <div class="border-t border border[#BBA977]"></div>
+
+        <div class="my-5">
+          <div class="grid grid-cols-1 gap-5 w-full">
+            <!-- Coin List 1 Receive-->
+            <div class="flex justify-between items-center w-full bg-[#F6F6F6]">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#26A17B] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13V1m0 0L1 5m4-4 4 4"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs font-semibold">전송완료</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 2 Send-->
+            <div class="flex justify-between items-center w-full bg-white">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#EE5A30] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 1v12m0 0 4-4m-4 4L1 9"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs font-semibold">전송완료</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 3 Hoding-->
+            <div class="flex justify-between items-center w-full bg-[#F6F6F6]">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#26A17B] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13V1m0 0L1 5m4-4 4 4"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs text-red-500 font-semibold">보류중</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 4 Hoding-->
+            <div class="flex justify-between items-center w-full bg-white">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#EE5A30] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 1v12m0 0 4-4m-4 4L1 9"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs font-semibold">전송완료</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 5 Hoding-->
+            <div class="flex justify-between items-center w-full bg-[#F6F6F6]">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#26A17B] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13V1m0 0L1 5m4-4 4 4"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs text-blue-500 font-semibold">
+                      전송중
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 6 Hoding-->
+            <div class="flex justify-between items-center w-full bg-white">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#EE5A30] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 1v12m0 0 4-4m-4 4L1 9"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs font-semibold">전송완료</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+            <!-- Coin List 7 Hoding-->
+            <div class="flex justify-between items-center w-full bg-[#F6F6F6]">
+              <div class="basis-4/5 truncate">
+                <div class="flex items-center gap-2">
+                  <div>
+                    <svg
+                      class="w-7 h-7 bg-[#26A17B] text-white rounded-full p-1"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13V1m0 0L1 5m4-4 4 4"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs tracking-tighter inline-flex">
+                      <span class="mr-1">To:</span>
+                      <span class="truncate"
+                        >ULItewecwItefesaefsefafeadwawde973xeHy0e6wdaawdawdawdasdv0ehw245Esewi</span
+                      >
+                    </div>
+                    <div class="text-xs text-red-500 font-semibold">보류중</div>
+                  </div>
+                </div>
+              </div>
+              <div class="px-1 basis-2/5">
+                <div class="tracking-tighter text-xs text-end">
+                  1,000,000 <span>USDT</span>
+                </div>
+                <div class="text-end text-xs text-gray-600">2023-08-19</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div action="" class="px-8 flex gap-5 mb-10">
+      <button
+        onclick="location.href='signin.html';"
+        class="text-center block text-white w-full py-3.5 px-2.5 rounded-full font-medium bg-[#EC0927] border-none hover:bg-gray-800"
+      >
+        더보기
+      </button>
+    </div>
+  </body>
+</html>

@@ -16,7 +16,7 @@
     <div class="w-full mx-auto">
       <div class="flex justify-between items-center h-16 px-2">
         <a
-          class="inline-fle items-center text-xl font-semibold z-20 cursor-pointer basis-2/4"
+          class="inline-flex items-center text-xl font-semibold z-20 cursor-pointer basis-2/4"
           href="mypage.html"
         >
           <svg
@@ -33,83 +33,95 @@
               stroke-width="2"
               d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"
             />
-            회원정보 조회/수정
           </svg>
+          <span class="ml-2 tracking-tighter"> 코인지갑 </span>
         </a>
 
         <div class="inline-block w-full text-xl font-semibold basis-2/4"></div>
       </div>
     </div>
 
-    <div class="w-full mx-auto">
-      <div class="pt-14">
-        <div class="font-semibold text-center">
-          <div class="text-3xl" style="color: #4a4b4d">회원정보수정</div>
-          <div class="text-sm" style="color: #7c7d7e">
-            아이디/패스워드를 입력하세요.
+    <div class="flex-1 w-full mx-auto">
+      <div class="pt-10">
+        <div class="">
+          <div class="">
+            <!-- Coin List-->
+            <div class="grid grid-cols-1 gap-5 w-full px-5">
+              <!-- Coin List 1 -->
+              <a
+                href="coinWalletRecive.html"
+                class="cursor-pointer flex justify-between items-center gap-2 p-5 bg-[#F6F6F6] rounded-lg"
+              >
+                <div
+                  class="tracking-tighter flex items-center justify-start gap-2"
+                >
+                  <img
+                    src="./assets/img/coinUsdtTRX.png"
+                    alt=""
+                    class="w-12 h-12 object-cover"
+                  />
+                  <div class="">
+                    <div>테더 USDT(TRX)</div>
+                    <div class="font-semibold">2,321,456 <span>USDT</span></div>
+                  </div>
+                </div>
+                <div class="">
+                  <svg
+                    class="w-6 h-6 text-[#BBA977]"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 9 4-4-4-4"
+                    />
+                  </svg>
+                </div>
+              </a>
+              <!-- Coin List 1 -->
+              <a
+                href=""
+                class="cursor-pointer flex justify-between items-center gap-2 p-5 bg-[#F6F6F6] rounded-lg"
+              >
+                <div
+                  class="tracking-tighter flex items-center justify-start gap-2"
+                >
+                  <img
+                    src="./assets/img/coinTronTRX.png"
+                    alt=""
+                    class="w-12 h-12 object-cover"
+                  />
+                  <div class="">
+                    <div>트론 TRON(TRX)</div>
+                    <div class="font-semibold">2,321,456 <span>USDT</span></div>
+                  </div>
+                </div>
+                <div class="">
+                  <svg
+                    class="w-6 h-6 text-[#BBA977]"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 6 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 9 4-4-4-4"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div action="" class="flex-1 px-8 flex flex-col gap-5">
-      <div class="flex-1 flex flex-col justify-start gap-6 pt-20">
-        <div>
-          <label for="" class="px-5">아이디</label>
-          <input
-            value="syanoee"
-            class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
-            style="background: rgb(242, 242, 242)"
-            type="text"
-            placeholder="아이디를 입력하세요."
-            disabled
-          />
-        </div>
-        <div>
-          <label for="" class="px-5">추천인</label>
-          <input
-            class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
-            style="background: rgb(242, 242, 242)"
-            type="text"
-            placeholder="추천인 아이디를 입력하세요."
-          />
-        </div>
-        <div>
-          <label for="" class="px-5">이름</label>
-          <input
-            value="홍길동"
-            class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
-            style="background: rgb(242, 242, 242)"
-            type="text"
-            placeholder="추천인 아이디를 입력하세요."
-            disabled
-          />
-        </div>
-        <div>
-          <label for="" class="px-5">휴대폰번호</label>
-          <input
-            value=""
-            class="rounded-full w-full py-3.5 px-10 focus:border-blue-400 outline-none border"
-            style="background: rgb(242, 242, 242)"
-            type="text"
-            placeholder="휴대전화번호 입력하세요."
-            disabled
-          />
-        </div>
-      </div>
-      <div class="mb-10 flex flex-col gap-5">
-        <button
-          onclick="location.href='mypage.html';"
-          class="text-center block text-white w-full py-3.5 px-2.5 rounded-full"
-          style="
-            background: linear-gradient(
-              180deg,
-              rgb(178, 156, 93),
-              rgb(89, 78, 47) 100%
-            );
-          "
-        >
-          회원정보변경
-        </button>
       </div>
     </div>
   </body>

@@ -44,6 +44,10 @@ import "../img/evnet_b.png";
 import "../img/Organetopshape.png";
 import "../img/completeimg.png";
 
+// Coin Image
+import "../img/coinUsdtTRX.png";
+import "../img/coinTronTRX.png";
+
 // init Swiper:
 var swiper = new Swiper(".cardSwiper", {
   slidesPerView: 1,
@@ -117,7 +121,11 @@ const dragStop = () => {
   isDragging = false;
   bottomSheet.classList.remove("dragging");
   const sheetHeight = parseInt(sheetContent.style.height);
-  sheetHeight < 25 ? hideBottomSheet() : sheetHeight > 75 ? updateSheetHeight(100) : updateSheetHeight(50);
+  sheetHeight < 25
+    ? hideBottomSheet()
+    : sheetHeight > 75
+    ? updateSheetHeight(100)
+    : updateSheetHeight(50);
 };
 dragIcon.addEventListener("mousedown", dragStart);
 document.addEventListener("mousemove", dragging);
