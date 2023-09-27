@@ -1,0 +1,16 @@
+.on {
+  animation-name: ani;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+    transition-timing-function: ease-out;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

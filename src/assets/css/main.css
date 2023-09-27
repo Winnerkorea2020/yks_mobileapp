@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .gradient-main {
   background: linear-gradient(
@@ -14,7 +14,11 @@
 }
 
 .gradient-card {
-  background: linear-gradient(180deg, rgb(201, 177, 105), rgb(101, 89, 53) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(201, 177, 105),
+    rgb(101, 89, 53) 100%
+  );
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.39);
 }
 
@@ -27,3 +31,5 @@ body {
 }
 
 @import "./components/bottomSheet.css";
+@import "./components/calendarEvent.css";
+@import "./components/rulletEvent.css";

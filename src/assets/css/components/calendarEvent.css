@@ -1,0 +1,26 @@
+.event__calendar {
+  @apply bg-white p-3 rounded-lg;
+}
+
+.event__calendar-header {
+  @apply grid grid-cols-7 text-center py-2;
+}
+
+.event__header-day {
+  @apply text-xs font-medium;
+}
+
+.event__calendar-body {
+  @apply grid grid-cols-7 gap-1 text-center justify-center items-center py-2;
+}
+
+.event__day {
+  @apply flex justify-center items-center;
+}
+.event__body-day {
+  @apply relative inline-flex items-end justify-start h-10 w-10 bg-gray-200 border border-gray-400 font-medium text-gray-600;
+}
+
+.event__check-icon {
+  @apply absolute flex items-center justify-center h-full w-full rounded-full text-white font-medium;
+}

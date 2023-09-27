@@ -7,9 +7,12 @@ const miniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "development",
-  entry: { main: "./src/assets/js/main.js" },
+  entry: {
+    main: "./src/assets/js/main.js",
+    rullet: "./src/assets/js/rullet.js",
+  },
   output: {
-    filename: "assets/js/main.js",
+    filename: "assets/js/[name].js",
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {

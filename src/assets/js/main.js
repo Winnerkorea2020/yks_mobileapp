@@ -48,6 +48,15 @@ import "../img/completeimg.png";
 import "../img/coinUsdtTRX.png";
 import "../img/coinTronTRX.png";
 
+// Event Image
+
+import "../img/eventCheckAttendace.svg";
+import "../img/eventCheckAttendaceTitle.png";
+import "../img/eventCheckAttendaceBenfit.png";
+import "../img/eventCheckAttendaceButton.png";
+import "../img/eventrulletTitle.png";
+import "../img/eventrulletimg.png";
+
 // init Swiper:
 var swiper = new Swiper(".cardSwiper", {
   slidesPerView: 1,
@@ -135,3 +144,5 @@ document.addEventListener("touchmove", dragging);
 document.addEventListener("touchend", dragStop);
 sheetOverlay.addEventListener("click", hideBottomSheet);
 showModalBtn.addEventListener("click", showBottomSheet);
+
+// Rullet Event
