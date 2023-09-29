@@ -56,6 +56,7 @@ import "../img/eventCheckAttendaceBenfit.png";
 import "../img/eventCheckAttendaceButton.png";
 import "../img/eventrulletTitle.png";
 import "../img/eventrulletimg.png";
+import "../img/rulletStartButton.svg";
 
 // init Swiper:
 var swiper = new Swiper(".cardSwiper", {

@@ -136,20 +136,51 @@
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.on {
-  animation-name: ani;
-  animation-duration: 0.1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.rouletter {
+  position: relative;
+  width: 400px;
+  height: 400px;
 }
-@keyframes ani {
-  0% {
-    transform: rotate(0deg);
-    transition-timing-function: ease-out;
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.rouletter-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 350px;
+  overflow: hidden;
+}
+.rouletter-wacu {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  transform-origin: center;
+  transition-timing-function: ease-in-out;
+  transition: 2s;
+}
+.rouletter-arrow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 1px;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 40px solid red;
+  border-bottom: 0px solid transparent;
+}
+.rouletter-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+}
+.hidden-input {
+  display: none;
 }
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -966,9 +997,6 @@ input[type="range"]::-ms-fill-lower {
 .mt-1 {
   margin-top: 0.25rem;
 }
-.mt-10 {
-  margin-top: 2.5rem;
-}
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -1142,6 +1170,9 @@ input[type="range"]::-ms-fill-lower {
 }
 .-translate-x-full {
   --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .cursor-pointer {
@@ -1398,8 +1429,14 @@ input[type="range"]::-ms-fill-lower {
 .bg-cover {
   background-size: cover;
 }
+.bg-contain {
+  background-size: contain;
+}
 .bg-left {
   background-position: left;
+}
+.bg-center {
+  background-position: center;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
