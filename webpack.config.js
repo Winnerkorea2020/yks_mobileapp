@@ -9,7 +9,7 @@ module.exports = {
   mode: "development",
   entry: {
     main: "./src/assets/js/main.js",
-    // rullet: "./src/assets/js/rullet.js",
+    rullet: "./src/assets/js/rullet.js",
   },
   output: {
     filename: "assets/js/[name].js",
