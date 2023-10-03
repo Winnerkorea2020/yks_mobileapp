@@ -9,7 +9,7 @@ module.exports = {
   mode: "development",
   entry: {
     main: "./src/assets/js/main.js",
-    rullet: "./src/assets/js/rullet.js",
+    // rullet: "./src/assets/js/rullet.js",
   },
   output: {
     filename: "assets/js/[name].js",
@@ -161,6 +161,13 @@ module.exports = {
       Chunks: ["multiple"],
       template: "./src/coinWalletComplete.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "coinWithdraw.html",
+      Chunks: ["multiple"],
+      template: "./src/coinWithdraw.html",
+    }),
+
     // TRX
     new HtmlWebpackPlugin({
       title: "Index Title",
@@ -198,6 +205,12 @@ module.exports = {
       filename: "eventAttendance.html",
       Chunks: ["multiple"],
       template: "./src/eventAttendance.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Index Title",
+      filename: "eventTap.html",
+      Chunks: ["multiple"],
+      template: "./src/eventTap.html",
     }),
     new miniCssExtractPlugin({ filename: "assets/css/[name].css" }),
   ],
